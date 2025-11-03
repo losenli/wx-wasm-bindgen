@@ -19,8 +19,8 @@ ureq = { version = "2.7", default-features = false, features = [
     "gzip",
 ] }
 walrus = "0.23"
-wasm-bindgen-cli-support = { version = "=0.2.105" }
-wasm-bindgen-shared = { version = "=0.2.105" }
+wasm-bindgen-cli-support = { version = "0.2" }
+wasm-bindgen-shared = { version = "0.2" }
 
 [patch.crates-io]
 wasm-bindgen-cli-support = { git = "https://github.com/BenLocal/wasm-bindgen", branch = "wx" }
